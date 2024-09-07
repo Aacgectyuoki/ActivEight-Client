@@ -3,10 +3,18 @@ import React, { useState } from 'react';
 
 // Sample exercises data (can be fetched from an API)
 const exercises = [
-  { id: 1, name: 'Leg Swings', description: 'Dynamic leg swings to improve hip mobility.' },
-  { id: 2, name: 'Arm Circles', description: 'Circular arm motions to warm up the shoulders.' },
-  { id: 3, name: 'Hip Circles', description: 'Gentle hip circles to lubricate hip joints.' },
+  { id: 1, name: 'DB Pullover', description: 'A T-spine and chest mobility exercise used to counteract the effects of prolonged sitting.' },
+  { id: 2, name: 'Trap-3 Raise', description: 'An ATG exercise targeting the traps with a 1-second hold at the top for better activation.' },
+  { id: 3, name: 'Cable Pulldown', description: 'Isometric lat pulldown using a cable machine to strengthen the back and lats.' },
+  { id: 4, name: 'Isometric Seated Calf Raise Hold', description: 'Hold a seated calf raise to build strength in the calves.' },
+  { id: 5, name: 'Isometric Standing Calf Raise Hold W/ Knee Lift', description: 'Hold a standing calf raise while lifting one knee to engage balance and calf strength.' },
+  { id: 6, name: 'Ankle Circles', description: 'Rotate the ankles to improve mobility and strength around the ankle joint.' },
+  { id: 7, name: 'Towel Scrunches', description: 'Strengthen your feet by scrunching a towel with your toes to improve grip and foot stability.' },
+  { id: 8, name: 'Theraband Scrunches', description: 'Use a Theraband to perform resistance toe scrunches, enhancing foot strength.' },
+  { id: 9, name: 'Lunge W/ Twist', description: 'Dynamic lunges combined with a torso twist to engage the core and improve mobility.' },
+  { id: 10, name: 'McGill Curlup', description: 'A core exercise targeting deep abdominal muscles without stressing the lower back.' },
 ];
+
 
 const ActivationRoutine = () => {
   // State for selected exercises
